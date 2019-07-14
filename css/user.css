@@ -1,0 +1,25 @@
+		body{
+			background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('ball.JPG') ;
+			background-size: cover;
+			margin: 0px;
+			padding: 0px;
+		}
+		ul{
+			list-style: none;
+			float: right;
+		}
+		ul li{
+			display: inline-block;
+			padding: 15px;
+		}
+		ul li a{
+			text-decoration: none;
+			font-family: courier;
+			font-size: 23px;
+			font-weight: 600;
+			color: white;
+			transition: 0.25s ease;
+		}
+		ul li a:hover{
+			color: orange;
+		}
